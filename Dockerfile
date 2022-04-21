@@ -1,4 +1,4 @@
-FROM golang:1.16
+FROM golang:bullseye
 
 RUN apt-get update && apt-get -y install wget unzip
 
